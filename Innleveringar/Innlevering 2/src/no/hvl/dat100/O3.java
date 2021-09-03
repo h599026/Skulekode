@@ -8,7 +8,7 @@ public class O3 {
 	public static void main(String[] args) {
 		
 		// Get a positive integer from user.
-		// (numbers over 40 will make the result too big for a 64 bit integer variable type)
+		// (numbers over 40 will make the result too big for a 64 bit integer)
 		int n;
 		do {
 			n = parseInt(showInputDialog("Skriv inn eit positivt heiltal under 40"));
@@ -16,8 +16,7 @@ public class O3 {
 		
 		// Do the calculation using a for loop
 		long result = 1;
-		int i = 1;
-		for(; i <= n; i++) {
+		for(int i = 1; i <= n; i++) {
 			result *= i;
 		}
 		
