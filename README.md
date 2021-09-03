@@ -1,2 +1,2 @@
 # Skule_Prosjerkt
-Ei samling av alle skuleprosjekta for enkel tilgang på fleire enheter.
+Ei samling av alle kodeprosjekta på skulen for enkel tilgang på fleire enheter, og for innleveringer.
