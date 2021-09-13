@@ -12,7 +12,6 @@ public class OppgaaveB5 {
 		for(int i = 0; i < repeat; i++) {
 			
 			int poeng = parseInt(showInputDialog("Angi poengsum"));
-			int grade;
 			
 			if(poeng < 0 || poeng > 100) {
 
