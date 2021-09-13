@@ -1,0 +1,55 @@
+.topBar {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 128px;
+    background-color: darkturquoise;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Helvetica;
+}
+
+.mainBar {
+    position: absolute;
+    top: 128px;
+    left: 0%;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-top: 16px;
+    padding-bottom: 64px;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: rgba(184, 202, 187, 0.582);
+    color: rgb(35, 58, 58);
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.mainElement {
+    position: relative;
+    top: 10px;
+    width: 90%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sideBar {
+    position: absolute;
+    top: 128px;
+    width: 20%;
+    right: 0%;
+    margin-top: 5%;
+    margin-right: 10%;
+    padding-left: 16px;
+    background-color: dimgray;
+    color: white;
+}
